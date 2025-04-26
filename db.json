@@ -1,24 +1,39 @@
 {
   "todos": [
     {
-      "id": "f0a3",
-      "title": "học react",
-      "completed": false
+      "title": "học ielts",
+      "completed": false,
+      "id": 1
     },
     {
-      "id": "7ae1",
-      "title": "làm đồ án nghiên cứu",
-      "completed": false
+      "title": "kiếm 200 triệu",
+      "completed": false,
+      "id": 2
     },
     {
-      "id": "4184",
-      "title": "xử lý chuỗi",
-      "completed": false
+      "title": "đi cắt cỏ",
+      "completed": false,
+      "id": 3
     },
     {
-      "id": "1747",
-      "title": "dọn dẹp nhà",
-      "completed": false
+      "title": "dọn nhà",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "title": "xây nhà",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "title": "rửa bát",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "title": "nấu ăn",
+      "completed": false,
+      "id": 7
     }
   ]
 }

@@ -1,20 +1,26 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
+import './App.css';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
-    <BrowserRouter>
-      <nav style={{ display: 'flex', gap: 10 }}>
-        <Link to="/">🏠 Trang chủ</Link>
-        <Link to="/about">ℹ️ Giới thiệu</Link>
-      </nav>
-      <hr />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="App">
+      <BrowserRouter>
+        <Navbar />
+        <main className="main">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
+        </main>
+        <Footer />
+        <ToastContainer position="top-right" />
+      </BrowserRouter>
+    </div>
   );
 }
 
