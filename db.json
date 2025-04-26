@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": "f0a3",
+      "title": "học react",
+      "completed": false
+    },
+    {
+      "id": "7ae1",
+      "title": "làm đồ án nghiên cứu",
+      "completed": false
+    },
+    {
+      "id": "4184",
+      "title": "xử lý chuỗi",
+      "completed": false
+    },
+    {
+      "id": "1747",
+      "title": "dọn dẹp nhà",
+      "completed": false
+    }
+  ]
+}
